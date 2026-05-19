@@ -6,7 +6,7 @@
   "documentation": "https://github.com/cyberpater84/ecoforest-hacs",
   "issue_tracker": "https://github.com/cyberpater84/ecoforest-hacs/issues",
   "dependencies": ["modbus"],
-  "requirements": ["pymodbus==3.6.9"],
+  "requirements": [],
   "iot_class": "local_polling",
   "codeowners": ["@cyberpater84"]
 }
