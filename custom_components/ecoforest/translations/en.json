@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Ecoforest Heat Pump",
+        "description": "Enter the connection details of your Modbus TCP adapter (e.g. Waveshare or AliExpress RS485-to-TCP converter).",
+        "data": {
+          "host": "IP address",
+          "port": "Port",
+          "slave": "Modbus slave address",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect. Check the IP address and port.",
+      "slave_not_responding": "Connected but slave is not responding. Check the slave address and BMS port setting on the heat pump.",
+      "unknown": "Unknown error. Check the HA logs."
+    },
+    "abort": {
+      "already_configured": "This heat pump is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ecoforest options",
+        "data": {
+          "scan_interval": "Poll interval (seconds)"
+        }
+      }
+    }
+  }
+}

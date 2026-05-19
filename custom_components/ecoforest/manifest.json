@@ -1,0 +1,12 @@
+{
+  "domain": "ecoforest",
+  "name": "Ecoforest Heat Pump",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/cyberpater84/ecoforest-hacs",
+  "issue_tracker": "https://github.com/cyberpater84/ecoforest-hacs/issues",
+  "dependencies": ["modbus"],
+  "requirements": ["pymodbus==3.6.9"],
+  "iot_class": "local_polling",
+  "codeowners": ["@cyberpater84"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Ecoforest Heat Pump",
+  "domain": "ecoforest",
+  "documentation": "https://github.com/cyberpater84/ecoforest-hacs",
+  "issue_tracker": "https://github.com/cyberpater84/ecoforest-hacs/issues",
+  "homeassistant": "2024.1.0",
+  "iot_class": "local_polling"
+}

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ecoforest warmtepomp instellen",
+        "description": "Vul de verbindingsgegevens in van uw Modbus TCP adapter (bijv. Waveshare of AliExpress RS485-naar-TCP converter).",
+        "data": {
+          "host": "IP-adres",
+          "port": "Poort",
+          "slave": "Modbus slave-adres",
+          "name": "Naam"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken. Controleer IP-adres en poort.",
+      "slave_not_responding": "Verbinding gelukt maar slave reageert niet. Controleer het slave-adres en de BMS-poortinstelling op de warmtepomp.",
+      "unknown": "Onbekende fout. Controleer de HA-logs."
+    },
+    "abort": {
+      "already_configured": "Deze warmtepomp is al geconfigureerd."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ecoforest opties",
+        "data": {
+          "scan_interval": "Poll-interval (seconden)"
+        }
+      }
+    }
+  }
+}
