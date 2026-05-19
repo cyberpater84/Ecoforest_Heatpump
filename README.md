@@ -46,7 +46,7 @@ Communiceert direct met de BMS2-poort van de warmtepomp via een goedkope RS485-n
 ## Installatie via HACS
 
 1. Ga in HACS naar **Integraties → Aangepaste repositories**
-2. Voeg toe: `https://github.com/cyberpater84/ecoforest-hacs` (categorie: Integratie)
+2. Voeg toe: `[https://github.com/cyberpater84/Ecoforest_Heatpump]` (categorie: Integratie)
 3. Installeer **Ecoforest Heat Pump**
 4. Herstart Home Assistant
 5. Ga naar **Instellingen → Apparaten & Diensten → Integratie toevoegen**
