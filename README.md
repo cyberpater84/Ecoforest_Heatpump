@@ -108,7 +108,7 @@ Herstart HA, daarna via UI instellen zoals hierboven.
 
 ## Bekende beperkingen
 
-- Alleen **ecoAIR** domestic (1-22 kW). ecoGEO en high-power (12-100 kW) komen in een latere versie.
+- Alleen **ecoAIR** domestic (1-22 kW). ecoGEO en high-power (12-100 kW) komen in een latere versie. Of op verzoek, het testen hiervan kan ik niet doen omdat ik deze warmtepomp niet heb.
 - Modbus RTU (serieel) wordt niet ondersteund — alleen TCP.
 - De BMS-poort ondersteunt maar één master tegelijk. Als je ook een Easynet-module of th-tune hebt die de BMS2-poort gebruikt, heb je een uitbreidingskaart nodig voor een tweede BMS-poort.
 
