@@ -36,7 +36,7 @@ Communiceert direct met de BMS2-poort van de warmtepomp via een goedkope RS485-n
    - Baudrate: **19200**
    - Stop bits: **2**
    - Parity: **None**
-   - Slave-adres: kies zelf (standaard 1)
+   - Slave-adres: kies zelf (standaard 17)
    - Protocol: **MB Slave** of **MB SLV. EXT**
 
 > Als u alleen wilt uitlezen (geen schrijven) hoeft de BMS remote control **niet** geactiveerd te zijn.
